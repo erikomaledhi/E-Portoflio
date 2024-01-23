@@ -184,10 +184,11 @@ nav,
   
 */
 #landing-page {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   position: relative;
 }
 
@@ -200,9 +201,6 @@ nav,
   margin: 0 auto;
 }
 
-.header__content {
-  padding: 60px 0;
-}
 
 .header__para {
   font-size: 24px;
@@ -247,8 +245,6 @@ nav,
 
 .scroll {
   display: flex;
-  position: absolute;
-  bottom: 20px;
 }
 
 .scroll__icon {
@@ -713,14 +709,11 @@ footer {
 
 /* Small phones */
 @media (max-width: 480px) {
-  .header__content {
-    padding: 72px 0 0 0;
-  }
   .title {
-    font-size: 32px;
+    font-size: 56px;
   }
   .header__para {
-    font-size: 18px;
+    font-size: 20px;
   }
   .nav__link:first-child {
     display: none;
